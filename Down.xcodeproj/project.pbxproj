@@ -1077,7 +1077,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark/**";
 			};
 			name = Debug;
 		};
@@ -1098,7 +1098,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark/**";
 			};
 			name = Release;
 		};
